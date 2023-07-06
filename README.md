@@ -10,11 +10,9 @@
   <p align="center">
     A simple file sharing website made with PHP!
     <br />
-    <a href="https://github.com/AstoundingBF/BlackVault---Anoynmous-File-Sharing-Website"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
+
     ·
-    <a href="https://github.com/AstoundingBF/BlackVault---Anoynmous-File-Sharing-Website/issues">Report Bug</a>
+
   </p>
 </div>
 
