@@ -3,7 +3,7 @@
 $host = 'localhost'; // Replace with your database host
 $dbName = 'uploads'; // Replace with your database name
 $username = 'uploads'; // Replace with your database username
-$password = '3fsn(ETB3D2Hb_Z'; // Replace with your database password
+$password = 'db_pass'; // Replace with your database password
 
 // Create a database connection
 $dsn = "mysql:host=$host;dbname=$dbName;charset=utf8mb4";
