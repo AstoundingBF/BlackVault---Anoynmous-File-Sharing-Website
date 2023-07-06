@@ -3,7 +3,7 @@
 $host = 'localhost'; // Replace with your database host
 $dbName = 'uploads'; // Replace with your database name
 $username = 'uploads'; // Replace with your database username
-$password = '3fsn(ETB3D2Hb_Z'; // Replace with your database password
+$password = 'db_pass'; // Replace with your database password
 
 // Create a database connection
 $dsn = "mysql:host=$host;dbname=$dbName;charset=utf8mb4";
@@ -84,12 +84,7 @@ if (isset($_FILES['file']['name'])) {
     }
 }
 
-/**
- * Get the error message for a specific upload error code.
- *
- * @param int $errorCode The upload error code.
- * @return string The error message.
- */
+
 function getUploadErrorMessage($errorCode)
 {
     switch ($errorCode) {
@@ -112,24 +107,14 @@ function getUploadErrorMessage($errorCode)
     }
 }
 
-/**
- * Function to generate a unique hash for the file.
- * Replace this with your own hash generation logic.
- *
- * @return string The hash value.
- */
+
 function generateHash()
 {
     return uniqid(); // Generates a unique ID as the hash
 }
 
-/**
- * Function to generate the download link based on the hash.
- * Replace this with your own link generation logic.
- *
- * @param string $hash The hash value.
- * @return string The download link.
- */
+
+
 function generateDownloadLink($hash)
 {
     $baseUrl = 'https://blackvault.cc'; // Replace with your website's base URL
